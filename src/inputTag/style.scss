@@ -1,0 +1,77 @@
+.tagContainer {
+  display: block;
+  background-color: white;
+  border: 2px solid #ebedef;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  padding: 6px 1px 1px 6px;
+  text-align: left;
+  font-size: 0;
+  user-select: none;
+
+    .selectTagItem {
+      border-radius: 4px;
+      font-size: 13px;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      overflow: hidden;
+      margin: 0 5px 5px 0;
+      transition: .25s linear;
+      color: white;
+      padding: 2px 18px;
+        
+        &:hover {
+          padding-right: 22px;
+          padding-left: 14px;
+
+            & .tagCloseIcon {
+                opacity: 1;
+            }
+        }
+        
+        .tagCloseIcon {
+          color: white;
+          padding: 0 10px 0 0;
+          cursor: pointer;
+          font-size: 12px;
+          position: absolute;
+          right: 0;
+          text-align: right;
+          text-decoration: none;
+          top: 0;
+          width: 100%;
+          bottom: 0;
+          z-index: 2;
+          opacity: 0;
+          filter: "alpha(opacity=0)";
+          transition: opacity .25s linear;
+
+            &:after {
+              content: "x";
+              font-family: "Flat-UI-Pro-Icons";
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              line-height: 20px;
+            }
+        }
+    }
+    .tagInput {
+      font-size: 14px;
+      border: none;
+      box-shadow: none;
+      outline: none;
+      background-color: transparent;
+      padding: 0;
+      margin: 0;
+      width: auto !important;
+      max-width: inherit;
+      min-width: 80px;
+      vertical-align: top;
+      height: 28px;
+      color: #34495e;
+      padding-left: 4px;
+      margin-bottom: 5px;
+    }
+}
