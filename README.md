@@ -1,8 +1,5 @@
 ## 页签组件
 
-[![npm version](https://img.shields.io/npm/v/ac-thermometer.svg)](https://www.npmjs.com/package/ac-thermometer)
-[![NPM downloads](http://img.shields.io/npm/dt/ac-thermometer.svg?style=flat)](https://npmjs.org/package/ac-thermometer)
-
 ---
 
 
