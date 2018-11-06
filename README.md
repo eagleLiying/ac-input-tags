@@ -1,14 +1,16 @@
 ## 页签组件
 
 ---
+### 1. 效果图
 
+![image](./docs/assets/img/tag.gif)
 
-### 1. 安装
+### 2. 安装
 
 - 通过npm下载使用 `npm install ac-input-tags -S`
 
 
-### 2. 使用
+### 3. 使用
 
 ```js
 /**
@@ -98,7 +100,7 @@ class Demo1 extends Component {
 
 export default Demo1;
 ```
-### 3. API
+### 4. API
 
 参数 | 类型 | 说明 | 默认值
 ---|---|---|---
