@@ -29,8 +29,9 @@ var DemoArray = [{
      */
     
     import React, { Component } from 'react';
-    import InputTag from '../../src/index';
+    import InputTag from 'ac-input-tags';
     import { Col, Row, Button, } from 'tinper-bee';
+    import 'ac-input-tags/dist/index.css';
     
     class Demo1 extends Component {
         constructor(props) {
