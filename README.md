@@ -1,13 +1,16 @@
 ## 页签组件
 
----
+
 ### 1. 效果图
 
 ![image](./docs/assets/img/tag.gif)
 
 ### 2. 安装
 
-- 通过npm下载使用 `npm install ac-input-tags -S`
+通过npm下载使用 
+```js
+$ npm install ac-input-tags --save-dev
+```
 
 
 ### 3. 使用
@@ -21,8 +24,9 @@
  */
 
 import React, { Component } from 'react';
-import InputTag from 'ac-input-tags';
 import { Col, Row, Button, } from 'tinper-bee';
+import InputTag from 'ac-input-tags';
+import 'ac-input-tags/dist/index.css';
 
 class Demo1 extends Component {
     constructor(props) {
@@ -104,9 +108,9 @@ export default Demo1;
 
 参数 | 类型 | 说明 | 默认值
 ---|---|---|---
-className|String| 类名 | ''
-id|String|input 的 id 值 | ''
-placeholder|String|默认值为"输入后回车"|100
-colors|String|标签的颜色，可以选择：'primary'(默认值)、'success'、'info'、'warning'、'danger'|100
+className|String| 类名 | undefined
+id|String|input 的 id 值 | undefined
+placeholder|String| -- | "输入后回车"
+colors|String|标签的颜色，可以选择：'primary'、'success'、'info'、'warning'、'danger'| 'primary'
 value|Array| 所有确定输入的标签值 | []
-onChange|Function| 每次确定输入或者删除一个标签值的执行, 接收改变后的值 | ()=> void
+onChange|Function| 每次确定输入或者删除一个标签值的执行, 接收改变后的值 | undefined
