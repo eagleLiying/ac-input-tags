@@ -15,12 +15,12 @@
     "deploy": "npm run clear:gh-pages && webpack --config config/webpack.config.ghpages.js"
   },
   "bugs": {
-    "url": "https://github.com/tinper-acs/ac-input-tags/issues"
+    "url": "https://github.com/eagleLiying/ac-input-tags/issues"
   },
-  "homepage": "https://github.com/tinper-acs/ac-input-tags#readme",
+  "homepage": "https://github.com/eagleLiying/ac-input-tags#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinper-acs/ac-input-tags.git"
+    "url": "git+https://github.com/eagleLiying/ac-input-tags.git"
   },
   "author": "",
   "license": "MIT",
