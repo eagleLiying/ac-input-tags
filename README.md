@@ -7,6 +7,11 @@
 
 ### 2. 安装
 
+通过ynpm下载使用
+```js
+$ ynpm install @yonyou/ac-input-tags --save-dev
+```
+
 通过npm下载使用
 ```js
 $ npm install @yonyou/ac-input-tags --save-dev
