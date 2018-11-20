@@ -16,9 +16,9 @@ const CARETUP = <i className="uf uf-arrow-up"></i>;
 
 
 import Demo1 from "./demolist/Demo1";
-var DemoArray = [{ 
-    "example": <Demo1 />, 
-    "title": " 标签", 
+var DemoArray = [{
+    "example": <Demo1 />,
+    "title": " 标签",
     "desc": '在输入框中输入标签内容，回车后可表示一个标签 输入完成',
     "code": `
     /**
@@ -27,12 +27,12 @@ var DemoArray = [{
      * @description 在输入框中输入标签内容，回车后可表示一个标签 输入完成
      *
      */
-    
+
     import React, { Component } from 'react';
-    import InputTag from 'ac-input-tags';
+    import InputTag from '@yonyou/ac-input-tags';
     import { Col, Row, Button, } from 'tinper-bee';
-    import 'ac-input-tags/dist/index.css';
-    
+    import '@yonyou/ac-input-tags/dist/index.css';
+
     class Demo1 extends Component {
         constructor(props) {
             super(props);
@@ -43,17 +43,17 @@ var DemoArray = [{
                 warningValue: ['warning'],
                 dangerValue: ['danger'],
             };
-    
+
             this.handleClick = this.handleClick.bind(this);
             this.handleChange = this.handleChange.bind(this);
         }
-    
+
         handleChange(name, values) {
             this.setState({
                 [name]: values
             })
         }
-    
+
         handleClick(name) {
             const string = this.state[name].join();
             alert(string);
@@ -106,7 +106,7 @@ var DemoArray = [{
             )
         }
     }
-    
+
     export default Demo1;
     `
 }]

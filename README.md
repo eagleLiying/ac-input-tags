@@ -7,9 +7,9 @@
 
 ### 2. 安装
 
-通过npm下载使用 
+通过npm下载使用
 ```js
-$ npm install ac-input-tags --save-dev
+$ npm install @yonyou/ac-input-tags --save-dev
 ```
 
 
@@ -25,8 +25,8 @@ $ npm install ac-input-tags --save-dev
 
 import React, { Component } from 'react';
 import { Col, Row, Button, } from 'tinper-bee';
-import InputTag from 'ac-input-tags';
-import 'ac-input-tags/dist/index.css';
+import InputTag from '@yonyou/ac-input-tags';
+import '@yonyou/ac-input-tags/dist/index.css';
 
 class Demo1 extends Component {
     constructor(props) {

@@ -1,5 +1,5 @@
 {
-  "name": "ac-input-tags",
+  "name": "@yonyou/ac-input-tags",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
