@@ -14,7 +14,7 @@ $ ynpm install @yonyou/ac-input-tags --save-dev
 
 通过npm下载使用
 ```js
-$ npm install @yonyou/ac-input-tags --save-dev
+$ npm install ac-input-tags --save-dev
 ```
 
 
