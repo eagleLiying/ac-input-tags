@@ -3,7 +3,7 @@
 
 ### 1. 效果图
 
-![image](./docs/assets/img/tag.gif)
+![image](https://raw.githubusercontent.com/eagleLiying/ac-input-tags/HEAD/docs/assets/img/tag.gif)
 
 ### 2. 安装
 
